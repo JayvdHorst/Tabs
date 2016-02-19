@@ -1,0 +1,45 @@
+body{
+	font-family: sans-serif;
+    background-color: azure;
+}
+div p {
+    text-align: center;
+    font-size: 19px;
+}
+body h2{
+	text-align: center;
+    font-size: 50px;
+    color: crimson;
+}
+body h3{
+	text-align: center;
+    font-size: 25px;
+}
+.knoppen{
+	overflow: hidden; 
+}
+.knoppen li a{
+    text-decoration: none;
+    color: crimson;
+    margin: 30px;
+}
+.knoppen li{
+	list-style-type: none;
+	float: left;
+    font-size: 20px;
+}
+.knoppen li.actief{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: crimson;
+}
+.paneel{
+	display: none;
+}
+.paneel.actief{
+	display: block !important;
+}
+.paneel.actief img{
+    max-width: 100%;
+    margin-left: 625px;
+}
