@@ -1,25 +1,25 @@
 /**
  * Created by J. van der Horst on 14-3-2016.
  */
-var scrollWaarde;
-var laatstePositie = 0;
-var naviMenu = $('nav');
-var menuHoogte = naviMenu.outerHeight();
+var scrollValue;
+var lastpos = 0;
+var navigatie = $('nav');
+var menuHight = navigatie.outerHeight();
 
-function verschuifMenu() {
-    scrollWaarde = $(this).scrollTop();
-    if(scrollWaarde > laatstePositie) {
+function moveMenu() {
+    scrollValue = $(this).scrollTop();
+    if(scrollValue > lastpos) {
         //scroll naar beneden
-        console.log('we gaan naar benden');
-        laatstePositie = scrollWaarde;
-        naviMenu.css('top', -menuHoogte + 'px')
+        console.log('beneden');
+        lastpos = scrollValue;
+        navigatie.css('top', - menuHight + 'px')
 
     } else {
         //we scrollen naar beneden
-        console.log('haal menu');
-        laatstePositie = scrollWaarde;
-        naviMenu.css('top', 0)
+        console.log('haal menu op');
+        lastpos = scrollValue;
+        navigatie.css('top', 0)
     }
 }
 
-$(window).on('scroll', verschuifMenu);
+$(window).on('scroll', moveMenu);
