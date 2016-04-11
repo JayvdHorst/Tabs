@@ -1,0 +1,57 @@
+/* Padding for NAV !!! */
+.padding {
+    padding-top: 70px;
+}
+/*Basic Navigation color*/
+.navbar {
+    color: white;
+    font-size: 15px;
+    font-family: Verdana;
+}
+/* CSS Thumbs */
+#A1 {
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid black;
+}
+#A2 {
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid black;
+}
+#A3 {
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid black;
+}
+#A4 {
+    width: 250px;
+    height: 150px;
+    margin: 5px;
+    border: 1px solid black;
+}
+/* CSS Img Modal */
+.big_style {
+
+}
+/* Modal Window jQuery*/
+.modaal-ven {
+    position: fixed;
+    font-family: sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+.modaal-in {
+    position: relative;
+
+    padding: 5px 20px 13px 20px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid grey;
+}
