@@ -1,0 +1,29 @@
+nav{
+	height: 2em;
+	display: block;
+    width: 100%;
+    transition-property: top;
+    transition-duration: 500ms;
+    top: 0;
+    position: fixed;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0 2em;
+	overflow: hidden;
+}
+nav ul li{
+	float: right;
+	padding: 0 2em;
+}
+nav ul li:hover {
+	/*none*/
+}
+nav ul li a{
+	color : black;
+	line-height: 2em;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Verdana";
+}
