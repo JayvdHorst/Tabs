@@ -1,5 +1,6 @@
 body {
     padding-top: 70px;
+    /*background-color: #3E0607;*/
 }
 .main_image {
     z-index: 99;
@@ -81,6 +82,14 @@ footer {
     -o-transform: rotate(90deg);
     transform: rotate(90deg);
     color: #454444;
+}
+.landings_page {
+    width: 1100px;
+    margin-left: 0;
+    margin-right: 0;
+    border: solid;
+    border-width: 3px;
+    border-color: #3E0607;
 }
 /*.hi {*/
     /*width: 100px;*/

@@ -30,7 +30,7 @@ if (isset($_SESSION['user'])) {
     <!--Logo-->
     <!--<a class="main_image" href="#"><img src="images/a1.png" alt="logo" style="width:100px;height:100px;"></a>-->
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -50,10 +50,10 @@ if (isset($_SESSION['user'])) {
                         <a href="#">Games</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="services.php">Services</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                     <li>
                         <a data-toggle="modal" data-target="#myModal" href="#">Login</a>
@@ -178,6 +178,7 @@ if (isset($_SESSION['user'])) {
                     <textarea id="form_message" name="message" class="form-control" placeholder="Your Question *" rows="4" required="required"></textarea>
                 </div>
                 <div class="col-md-12">
+                    <br>
                     <input type="submit" class="btn btn-success btn-send" value="Send message">
                 </div>
                 <div class="col-md-12">
@@ -307,8 +308,14 @@ if (isset($_SESSION['user'])) {
         <!-- Footer -->
         <footer>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-md-3">
                     <p>Copyright &copy; Gametivity</p>
+                </div>
+                <div class="col-md-3">
+                    <a href="privacy.php"><p>Terms & Conditions</p></a>
+                </div>
+                <div class="col-md-3">
+                    <a href="privacy.php" ><p>About Acme</p></a>
                 </div>
             </div>
         </footer>
